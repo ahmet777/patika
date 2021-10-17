@@ -1,0 +1,14 @@
+***[7, 5, 1, 8, 3, 6, 0, 9, 4, 2]  Binary-Search-Tree
+1. Öncelikle rootu 7 olarak belirliyoruz. 
+2. 5 7'den küçük olduğu için sola yerleştiriliyor. 
+3. 1 7'den küçük sola gider, solda 5 ile karşılaşır ve 5'ten küçük olduğu için 5'in de soluna yerleştirilir. 
+4. 8 7'den büyük olduğu için sağa yerleştirilir.
+5. 3 root olan 7'den küçük sola, 5'ten küçük sola, 1'den büyük 1'in sağına yerleşir. 
+6. 6 7'den küçük sola, 5'ten büyük sağa yerleşir. 
+7. 0 7'den küçük sola, 5'ten küçük sola, 1'den küçük sola yerleşir.
+8. 9 7'den büyük sağa, sağda 8 ile karşılar ve sağa yerleşir. 
+9. 4 sırası ile 7 ve 5'in soluna sonrasında 1 ve 3'ün sağına yerleşir.
+10. 2 sırası ile 7 ve 5'in soluna sonrasında 1 ve 3'ün sağına ve son olarak da 4'ün soluna yerleşir. 
+
+
+
