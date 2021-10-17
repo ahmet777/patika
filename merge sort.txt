@@ -1,0 +1,11 @@
+***[16,21,11,8,12,22] -> Merge Sort
+1. Öncelikle dizi [16,21,11] ve [8,12,22] olarak ikiye bölünür.
+2. Sonrasında [16] [21,11] ve [8] [12,22] olarak dörde bölünür,
+3. Devamında bütün elemanlar tek şekilde olur. 
+4. İşlem tersten uygulanır fakat birleştirme yapılırken sıralı olarak birleştirilir. Yani [16] [11,21] ve [8] [12,22] şeklinde olur.
+5. Sonrasında [11,16,21] ve [8,12,22] olur. 
+6. Son birleştirme işlemi yapıldığında ise [8,11,12,16,21,22] elde ederiz. 
+
+***BigO O(nlogn)'dir. 4.6689075023
+
+
